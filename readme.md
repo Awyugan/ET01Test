@@ -11,6 +11,8 @@
 - 生成情绪分布图。
 - 保存情绪报告和图表。
 
+![情绪分布图_awyugan.png](https://static.aiwriter.net/2utuxsJh4CXi46hzmc3uZ3/wWiUWkSCcoAVaeC3eA4Qs5/dBUnwnVA9wmQsLzvGrFQxW)
+
 ## 如何使用
 1. 将脚本保存到本地。
 2. 安装依赖(可在conda中安装)`pip install -r requirements.txt`
