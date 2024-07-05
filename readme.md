@@ -13,19 +13,22 @@
 
 ![情绪分布图_awyugan.png](https://static.aiwriter.net/2utuxsJh4CXi46hzmc3uZ3/wWiUWkSCcoAVaeC3eA4Qs5/dBUnwnVA9wmQsLzvGrFQxW)
 
-## 如何使用
+## 初次使用
+
 1. 将脚本保存到本地。
 2. 安装依赖(可在conda中安装)`pip install -r requirements.txt`
-3. 在终端运行脚本，传入Markdown或JSON文件作为命令行参数。
+3. 替换`awyugan.md`文件名和内容为 你的名字 和重要情绪概念（详情参考情绪情境论表格）
+4. 在终端运行脚本，传入Markdown文件
    ```bash
    python ET01test01.py {name}.md
+   # md 第一次测试使用md更方便
    ```
-   或者
+5. 根据提示，为情绪的频次和影响程度输入个人打分。
+6. 查看弹出的个人情绪概念分布图和保存的json（可用大语言模型生成个人报告或对话）。
+
    ```bash
    python ET01test01.py {name}.json
    ```
-4. 根据提示，为情绪的频次和影响程度输入评分。
-5. 查看生成的情绪分布图和保存的报告。
 
 ## 文件结构
 - `ET01Test01`: 保存JSON报告和情绪分布图的默认文件夹。
@@ -43,7 +46,7 @@
 
 ## 示例
 
-假设有一个Markdown文件`example.md`，内容如下（可直接复制excel表格中的内容到example.md）：
+假设有一个Markdown文件`example.md`，内容如下：
 ```
 此时此刻我的情绪感受是什么？	快乐	悲伤
 过去18个月，我反复出现的情绪体验是什么？	焦虑
